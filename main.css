@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+ }
+ 
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+body > header{
+    background-color: rgb(255, 100, 80);
+    padding: 16px 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+.articles article {
+    width:  30%;
+}
+h2 {
+    color: rgb(252, 48, 12);
+}
+h3{
+    color: rgb(63, 3, 38);
+}
+#sports h2{
+    color: rgb(255, 179, 0);
+}
+.creation-date{
+    color: rgb(125, 86, 42);
+}
+*{
+    color: rgb(68, 6, 6);
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.articles article a {
+    background-color: rgb(62, 6, 158);
+    color: azure;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgb(9, 9, 8);
+    text-decoration: none;
+
+}
+
+header li a {
+    color: rgb(46, 50, 75);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a:hover{
+    text-decoration:underline; 
+}
+
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy .articles article a {
+    background-color: coral;
+    text-decoration: none;
+}
+
+#economy {
+    background-color: rgb(230, 228, 139);
+}
+
+#entreternimento {
+    background-color:#201b2c
+}
+
+#entreternimento h2 {
+    color: rgb(100, 5, 188);
+}
+
+#entreternimento .articles article a {
+    background-color: rgb(102, 12, 221);
+    font-weight: bolder;
+    text-decoration: none;
+}
+#entreternimento article h3{
+    color: #00ff88;
+}
+
+#entreternimento article p{
+    color:aliceblue;
+}
+
+#tecnologia {
+    background-color:#00ff88;
+}
+
+#tecnologia h2{
+    color: #201b2c;
+}
+
+#tecnologia .articles article a {
+    background-color: #201b2c;
+    font-weight: bolder;
+    text-decoration: none;
+}
